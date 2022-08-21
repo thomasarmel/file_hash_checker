@@ -1,0 +1,2 @@
+[build]
+rustflags = "-C target-cpu=native" # Activate SIMD extensions (SSE2 or AVX2)

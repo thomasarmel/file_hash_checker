@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "file_hash_checker",
+    "file_hash_checker_gui",
+    "file_hash_checker_cli"
+]
