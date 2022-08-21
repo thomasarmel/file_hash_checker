@@ -2,7 +2,6 @@ use file_hash_checker::file_hash::FileHash;
 
 fn main() {
     if std::env::args().count() < 2 {
-        println!("{}", std::env::args().count());
         print_usage_stderr();
         std::process::exit(1);
     }
